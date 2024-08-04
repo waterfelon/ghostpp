@@ -95,7 +95,7 @@ protected:
 	uint32_t m_LastAnnounceTime;					// GetTime when the last announce message was sent
 	uint32_t m_AnnounceInterval;					// how many seconds to wait between sending the m_AnnounceMessage
 	uint32_t m_LastAutoStartTime;					// the last time we tried to auto start the game
-	unit32_t m_AmountOfTimedSkippedAutoStartMessage;// how many time autostart has been checked since last message shown
+	uint32_t m_AmountOfTimedSkippedAutoStartMessage;// how many time autostart has been checked since last message shown
 	uint32_t m_AutoStartPlayers;					// auto start the game when there are this many players or more
 	uint32_t m_LastCountDownTicks;					// GetTicks when the last countdown message was sent
 	uint32_t m_CountDownCounter;					// the countdown is finished when this reaches zero
